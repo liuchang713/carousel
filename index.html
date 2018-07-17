@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+  <div class="container">
+    <div class="main-body" id = 'main' style="left:-400px;">
+      <!-- <img src="images/4.jpg" alt=""> -->
+      <!-- <img src="images/1.jpg" alt=""> -->
+      <!-- <img src="images/2.jpg" alt=""> -->
+      <!-- <img src="images/3.jpg" alt=""> -->
+      <!-- <img src="images/4.jpg" alt=""> -->
+      <!-- <img src="images/1.jpg" alt=""> -->
+    </div>
+    <div class="left-aside" id = 'left'><</div>
+    <div class="right-aside" id = 'right'>></div>
+    <div class="buttons">
+      <span class="special-color" index = '1'>1</span>
+      <span index = '2'>2</span>
+      <span index = '3'>3</span>
+      <span index = '4'>4</span>
+    </div>
+  </div>
+</body>
+<script src="carousel.js"></script>
+<script>
+  var data = ['images/1.jpg','images/2.jpg','images/3.jpg','images/4.jpg']
+  var width = 400
+  carousel(data)
+</script>
+</html>

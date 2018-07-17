@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin-left: 200px;
+  margin-top: 200px;
+  position: relative;
+  width: 400px;
+  overflow: hidden;
+}
+.main-body{
+  position: relative;
+  width: 2400px;
+}
+.main-body img{
+  width: 400px;
+  float: left;
+}
+.left-aside{
+  position: absolute;
+  top:110px;
+  left: 0px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+.right-aside{
+  position: absolute;
+  top:110px;
+  right: 0px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+.buttons{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.buttons span{
+  width: 18px;
+  height: 18px;
+  background-color: blanchedalmond;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 18px;
+}
+.special-color{
+  color: rgba(243, 137, 105, 0.932) 
+}
